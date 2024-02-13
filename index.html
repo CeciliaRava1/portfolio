@@ -10,83 +10,72 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,900;1,300&display=swap" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Roboto:300,900' rel='stylesheet' type='text/css'>
+        <script src="https://kit.fontawesome.com/51dfb3bb2d.js" crossorigin="anonymous"></script>
         <title>Landing page</title>
     </head>
 
     <body>
          <!-- Header -->
-        <div class="header">
-            <div class="left_items">
-                <ul>
-                    <li>Header Logo</li>
-                </ul>
-            </div>
-            <div class="right_items">
-                <ul>
-                    <li>header link one</li>
-                    <li>header link two</li>
-                    <li>header link three</li>
-                </ul>
-            </div>
+        <div class="header" id="about">
+            <ul>
+                <a href="#about"><li>About me</li></a>
+                <a href="#projects"><li>Projects</li></a>
+                <a href="#quote"><li>Quote</li></a>
+            <ul>
         </div>
 
         <!-- Section one -->
         <div class="section_one">
-            <div class="box_one">
-                <h1>This website is awesome</h1>
-                <p>This website has some subtext that goes here under the main title.
-                    It's a smaller font and the color is lower contrast</p>
-                <button>Sign up</button>
+            <div class="box_one_one">
+                <img src="./images/profile.jpg" alt="image">
             </div>
             <div class="box_one">
-                <img src="./images/image.jpg" alt="image">
-                <p class="p">This is an placeholder for an image</p>
+                <h2>Hi! I'm</h2>
+                <h1>Cecilia Rava</h1>
+                <p>I'm a Java Full Stack Software Developer and a student of Information Systems Engineering at 
+                    UTN. I like to craft new things using lines of code. I love programming, continuous 
+                    self-improvement, and learn new things.</p>
+                <a href="./docs/cv.pdf" target="_blank">
+                    <button>curriculum vitae</button>
+                </a>
             </div>
         </div>
-            
+        
          <!-- Section two -->
-         <h2>Some random information.</h2>
+         <h2 class="section_two_h2" id="projects">Projects.</h2>
          <div class="section_two">
             <div class="item">
-                <div class="box"></div>
-                <p>This is some subtext under an illustration or image</p>
+                <a href="https://ceciliarava1.github.io/template-landing-page/" target="_blank">
+                    <div class="box first_box"></div>
+                </a>
+                <p>Template</p>
             </div>
             <div class="item">
-                <div class="box"></div>
-                <p>This is some subtext under an illustration or image</p>
+                <div class="box second_box" ></div>
+                <p>Coming soon</p>
             </div>
             <div class="item">
-                <div class="box"></div>
-                <p>This is some subtext under an illustration or image</p>
+                <div class="box second_box"></div>
+                <p>Coming soon</p>
             </div>
             <div class="item">
-                <div class="box"></div>
-                <p>This is some subtext under an illustration or image</p>
+                <div class="box second_box"></div>
+                <p>Coming soon</p>
             </div>
          </div>
 
         <!-- Section three -->
-        <div class="section_three">
-            <h2>This is an inspiring quote, or a testimonial from a customer.
-                Maybe it's just filling up space, or maybe people will actually
-                read it. Who knows? All I know is that it looks nice.</h2>
-                <h3>-Thor, God of Thunder</h3>
+        <div class="section_three" id="quote">
+            <h2>"Give me six hours to chop down a tree and I will spend the first four sharpening the axe."</h2>
+                <h3>- Abraham Lincoln</h3>
         </div>
 
-        <!-- Section four -->
-        <div class="section_four">
-            <div class="box_four">
-                <h3>Call to action! It's time!</h3>
-                <p>Sign up for our product by clicking that button right over there!</p>
-            </div>
-            <div class="box_four">
-                <button class="button_two">Sign up</button>
-            </div>  
-        </div> 
 
         <!-- Footer -->
         <div class="footer">
-            <p>Copyright © The Odin Project 2021</p>
+            <a href="https://www.linkedin.com/in/cecilia-r-127779246/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/CeciliaRava1" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <p>Copyright © Cecilia Rava 2024</p>
         </div> 
     </body>
 </html>
