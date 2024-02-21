@@ -168,6 +168,11 @@ h2 {
 
 .second_box {
     background-size: cover; 
+    background-image: url(./images/rock.png);
+}
+
+.third_box {
+    background-size: cover; 
     background-image: url(./images/coming.jpg);
 }
 
@@ -198,6 +203,8 @@ h2 {
 }
 
 .footer {
+    bottom: 0;
+    width: 100%;
     background-color: #1F2937;
     color: #E5E7EB;
     font-weight: 300;
